@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+
+<body bgcolor="grey">
+    <form>
+        <i>
+            <h1>Collge Admission Form</h1>
+        </i>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name:" autofocus><br>
+        <label for="pin">Pin:</label>
+        <input type="text" id="pin" name="pin" placeholder="Enter your Pin:">
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="accept" name="accept" value="yes">
+            <label for="accept"> I hereby Accept the Entered Above Details are Accurate and True</label>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password:">
+        </div>
+        <div>
+            <label for="about college">About Collge</label>
+            <textarea name="about college" id="about college" cols="20" rows="4"
+                placeholder="Enter the good and bad things about the collge.."></textarea>
+        </div>
+        <div>
+            <label for="caste">Caste:</label>
+            <select name="caste" id="caste">
+                <option value="bce">BCE</option>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+                <option value="oc">OC</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
